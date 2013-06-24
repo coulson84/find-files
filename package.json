@@ -1,0 +1,31 @@
+{
+  "name": "findFiles",
+  "description": "findFiles searches for file names that contain the supplied search term",
+  "tags": [
+    "search",
+    "regex",
+    "fs",
+    "files",
+    "utility"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/coulson84/findFiles",
+  "bugs": {
+    "url": "https://github.com/coulson84/findFiles/issues"
+  },
+  "main": "./main.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coulson84/findFiles.git"
+  },
+  "author": {
+    "name": "Joe Coulson",
+    "email": "coulson84@hotmail.com"
+  },
+  "engines": [
+    "node >=0.8.22"
+  ],
+  "dependencies": {
+    "walk": "*"
+  }
+}
