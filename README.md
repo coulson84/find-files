@@ -2,21 +2,22 @@
 
 a simple search utility that will return any file whose name includes the provided search term
 
-####Install With npm####
+###Install With npm###
 
 npm install findFiles
 
-####require it in node####
+###require it in node###
 
 var finder = require('findFiles');
 
-####Usage####
+###Use it###
 finder(value, options, callback);
 
-* where
- + value - string - your search term as a string, findFiles will convert your string to a regex for testing against file names so 'colou?r' would match any files that had either the English or American spelling of the word colour.
+####where####
+* value - string
+  + your search term as a string, findFiles will convert your string to a regex for testing against file names so 'colou?r' would match any files that had either the English or American spelling of the word colour.
 
-* options - Object -  
+* options - Object 
  + {
  +     root: 'string' // The root directory where you search will begin before walking through all folders below it in the tree
  +     requireExts: array // Optional - if included the search will only return files which also have a file extension contained in this array
