@@ -1,6 +1,6 @@
 {
-  "name": "findFiles",
-  "description": "findFiles searches for file names that contain the supplied search term",
+  "name": "find-files",
+  "description": "find-files searches for file names that contain the supplied search term",
   "tags": [
     "search",
     "regex",
@@ -8,15 +8,15 @@
     "files",
     "utility"
   ],
-  "version": "0.0.1",
-  "homepage": "https://github.com/coulson84/findFiles",
+  "version": "0.0.2",
+  "homepage": "https://github.com/coulson84/find-files",
   "bugs": {
-    "url": "https://github.com/coulson84/findFiles/issues"
+    "url": "https://github.com/coulson84/find-files/issues"
   },
   "main": "./main.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coulson84/findFiles.git"
+    "url": "git://github.com/coulson84/find-files.git"
   },
   "author": {
     "name": "Joe Coulson",
