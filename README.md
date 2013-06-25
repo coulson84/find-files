@@ -26,7 +26,7 @@ finder(value, options, callback);
 ```
    {
        root:        'string' // root of search
-       requireExts: array    // Optional - only return files which match file extensions contained in array
+       requireExts: array    // Optional - only return files which match extensions contained in array
        ignoreDirs:  array    // Optional - don't include directories contained in array
    }
 ```
