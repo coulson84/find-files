@@ -9,7 +9,7 @@ npm install findFiles
 ###require it in node###
 
 ```
-var finder = require('findFiles');
+var finder = require('find-files');
 ```
 
 ###Use it###
