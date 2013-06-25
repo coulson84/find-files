@@ -8,10 +8,15 @@ npm install findFiles
 
 ###require it in node###
 
+```
 var finder = require('findFiles');
+```
 
 ###Use it###
+
+```
 finder(value, options, callback);
+```
 
 ####where####
 * value - string
@@ -20,11 +25,10 @@ finder(value, options, callback);
 * options - Object 
 ```
    {
-       root: 'string' // The root directory where you search will begin before walking through all folders below it in the tree
-       requireExts: array // Optional - if included the search will only return files which also have a file extension contained in this array
-       ignoreDirs: array // Optional - if included the search will not iterate through files if they are in a folder/subfolder contained in the ignoreDirs array
+       root:        'string' // root of search
+       requireExts: array    // Optional - only return files which match file extensions contained in array
+       ignoreDirs:  array    // Optional - don't include directories contained in array
    }
-
 ```
 
 * callback - Function - the callback is passed one argument which is an array of objects as below
