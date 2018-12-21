@@ -35,7 +35,7 @@ var findFiles = function(name, options, cb) {
 		if(skipDir) {
 			return;
 		}
-		console.log(root);
+
 		files.forEach(function(item) {
 			if(!requireExts || requireExts.indexOf(path.extname(item.name)) >= 0) {
 				if (matchesQuery(item.name)) {
