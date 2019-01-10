@@ -1,7 +1,6 @@
 var fs = require('fs'),
 	walk = require('walk'),
-	path = require('path'),
-	cwd = process.cwd();
+	path = require('path');
 
 var findFiles = function(name, options, cb) {
 	if (!cb) {
@@ -12,7 +11,7 @@ var findFiles = function(name, options, cb) {
 
 	var ignoreDirs = options.ignoreDirs || [];
 	var requireExts = options.requireExts || false;
-	var startDir = options.root || cwd;
+	var startDir = options.root || process.cwd();
 	var matches = [];
 
 	var matchesQuery = function(filename) {
